@@ -22,6 +22,12 @@ describe Fastlane do
       )
     end
 
+    describe 'Sends the pin to the govenrment' do
+      it 'errors out' do
+        expect(1).to eq(2)
+      end
+    end
+
     describe "CheckGoodVersionAction" do
       context "WHEN calling action with the GD.framework installed" do
         before do
